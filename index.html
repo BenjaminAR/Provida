@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <title>Salario</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>    
+<body> 
+    <form id="miformulario"  method="post">
+    <section class="let hola">
+        <section> 
+            <P>Horas trabajadas por dia </P>
+            <p><input type="number" name="" id="i1" autofocus></p>
+        </section>
+
+        <section> 
+            <p>Dias a la semana trabajados</p>   
+            <p><input type="number" name="" id="i2"></p>
+        </section>
+        
+        <section>
+           <p>Cuanto quieres ganar por mes</p>   
+           <p><input type="number" name="" id="i3"></p>
+        </section> 
+
+        <section>
+            <p>Cuanto dias libres quieres al mes</p>   
+            <p><input type="number" name="" id="i4"></p>
+        </section>
+
+        <section> 
+            <p>Cuantos dias de inactividad</p>   
+            <p><input type="number" name="" id="i5"></p>
+        </section>
+        
+        <section>
+            <p>Porcentaje de juntas</p>   
+            <p><input type="number" Placeholder="Porcentaje" id="i6"></p>
+        </section> 
+        
+        <section>
+            <p>Gastos mensules fijos (luz,agua, telefono, gas, renta, comiadas)</p>   
+            <p><input type="number" name="" id="i7"></p>
+        </section>
+
+        <section>
+            <p>Jubilacion</p>   
+            <p><input type="number" Placeholder="Porcentaje" id="i8"></p>
+        </section> 
+
+        <section>
+           <input type="button" name="" value="calcular" onclick="sumar();">
+        </section>
+        <section class="cuadro">
+        <p>Salario bruto anual: $ <span id="el-res"></span></p>
+        <br>
+        <p>Hora básico: <span id="el-res1"></span></p>
+        <br>
+        <p>Salario bruto anual: <span id="el-res"></span></p>
+        <br>
+        <p>Salario bruto anual: <span id="el-res"></span></p>
+        </section>
+    </section>
+    </form>
+    <script type="text/javascript" src="app.js" ></script>
+</body>
+</html>
